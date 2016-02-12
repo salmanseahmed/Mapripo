@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Leaflet Test</title>
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+  <link rel="stylesheet" href="Control.Geocoder.css" />
+  <link rel="stylesheet" href="https://rawgit.com/perliedman/leaflet-routing-machine/master/dist/leaflet-routing-machine.css" />
+  <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+  <script src="Control.Geocoder.js"></script> 
+  <script src="https://rawgit.com/perliedman/leaflet-routing-machine/master/dist/leaflet-routing-machine.js"></script>
+</head>
+
+<body>
+
+<h1>Roman Weekend</h1>
+
+<ul>
+  <li onclick="terminiFunction()">Termini</li>
+  <li onclick="colosseumFunction()">Colosseum</li>
+  <li onclick="forumFunction()">Roman Forum</li>
+  <li onclick="palantineFunction()">Palantine Hill</li>
+  <li onclick="pantheonFunction()">Pantheon</li>
+  <li onclick="lateranFunction()">Archbasilica of St. John Lateran</li>
+  <li onclick="treviFunction()">Trevi Fountain</li>
+  <li onclick="navonaFunction()">Piazza Navona</li>
+  <li onclick="peterFunction()">St. Peter's Basilica</li>
+  <li onclick="vaticanFunction()">Vatican Museums</li>
+  <li onclick="gianicoloFunction()">Gianicolo Hill</li>
+  <li onclick="spanishFunction()">Spanish Steps</li>
+  <li onclick="trastevereFunction()">Trastevere</li>
+  <li onclick="villaBorgheseFunction()">Villa Borghese</li>
+</ul>
+
+<div id="map"></div>
+
+<style>
+  body { 
+    background-color: #fff5e5;
+  }
+  #map { 
+    height: 650px; 
+  } 
+  ul { 
+    list-style-type: circle; 
+    float: left; 
+    width: 140px; 
+    height: 30px; 
+    line-height: 240%; 
+    padding-left: 20px; 
+    padding-right: 10px; 
+    cursor: pointer; 
+  }
+  li:hover { 
+    background-color: #e62e00; 
+  }
+  li { 
+    font-family: "georgia", "san-serif"; 
+  }
+  h1 { 
+    text-align: center; 
+    font-family: "georgia", "san-serif"; 
+  }
+</style>
+
+<script src="rome-lf.js"></script> 
+
+</body>
+
+</html>
