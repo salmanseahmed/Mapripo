@@ -1,0 +1,48 @@
+.myDiv {
+	border: 2px solid black;
+	border-radius: 10px;
+	height: 100%;
+}
+
+#myDiv1 {
+	width: 70%;
+	margin: auto;
+	float: left;
+}
+
+#myDiv2 {
+	width: 28%;
+	float: right;
+	overflow: auto;
+}
+
+.myHeading {
+	margin: 6px 2px;
+	font-size: 15px;
+	font-family: "arial",sans-serif;
+	font-style: italic;
+}
+
+#proExp {
+	margin-top: 8px;
+	margin-left: 2px;
+}
+
+p {
+	margin: 4px;
+	font-size: 14px;
+	font-family: "arial",sans-serif;
+}
+
+.popupText {
+	font-size: 13px;
+}
+
+.myHover:hover {
+	cursor: pointer;
+	background-color: #FFDEAD;
+}
+
+.tooltipster-content {
+	font: 12px "arial", sans-serif;
+}
